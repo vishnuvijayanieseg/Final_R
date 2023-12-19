@@ -11,7 +11,7 @@ library(RColorBrewer)
 library(sf)
 library(tidyr)
 
-BaseTable <- read_excel("C:/Users/vijay/Desktop/France 3/R/Group/MarketMetrics.xlsx")
+BaseTable <- read_excel("MarketMetrics.xlsx")
 
 # Create the filtered table
 Vizualisation_1_Prefered_Product <- BaseTable %>%
